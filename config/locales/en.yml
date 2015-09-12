@@ -162,6 +162,7 @@ en:
         way: way
         relation: relation
         changeset: changeset
+        note: note
     timeout:
       sorry: "Sorry, the data for the %{type} with the id %{id}, took too long to retrieve."
       type:
@@ -169,6 +170,7 @@ en:
         way: way
         relation: relation
         changeset: changeset
+        note: note
     redacted:
       redaction: "Redaction %{id}"
       message_html: "Version %{version} of this %{type} cannot be shown as it has been redacted. Please see %{redaction_link} for details."
@@ -248,6 +250,7 @@ en:
   diary_entry:
     new:
       title: New Diary Entry
+      publish_button: "Publish"
     list:
       title: "Users' diaries"
       title_friends: "Friends' diaries"
@@ -1194,7 +1197,7 @@ en:
   about_page:
     next: Next
     copyright_html: <span>&copy;</span>OpenStreetMap<br>contributors
-    used_by: "%{name} powers map data on hundreds of web sites, mobile apps, and hardware devices"
+    used_by: "%{name} powers map data on thousands of web sites, mobile apps, and hardware devices"
     lede_text: |
       OpenStreetMap is built by a community of mappers that contribute and maintain data
       about roads, trails, cafés, railway stations, and much more, all over the world.
@@ -1627,6 +1630,7 @@ en:
       allow_read_gpx:    "read your private GPS traces."
       allow_write_gpx:   "upload GPS traces."
       allow_write_notes: "modify notes."
+      grant_access: "Grant Access"
     oauthorize_success:
       title: "Authorization request allowed"
       allowed: "You have granted application %{app_name} access to your account."
